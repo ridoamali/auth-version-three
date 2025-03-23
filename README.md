@@ -5,4 +5,4 @@ css animate
 Oauth Google work
 and social
 
-err vercel 
+err functional di schema prism and env
