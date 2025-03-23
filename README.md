@@ -3,6 +3,6 @@ using pnpm
 
 css animate
 Oauth Google work
-improvement github Oauth
+and social
 
 err vercel 

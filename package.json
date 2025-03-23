@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0 --turbopack",
-    "build": "next build",
+    "build": "pnpm dlx prisma generate && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "pnpm dlx prisma generate"
   },
   "dependencies": {
     "@auth/core": "^0.34.2",
